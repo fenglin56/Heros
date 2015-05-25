@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 4642bdbb3f859ba4bb05b2a2ca74030b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ______-101
+    100004: ______-101
+    100006: ______-101(mirrored)
+    100008: ______-101(mirrored)
+    100010: ______-102
+    100012: ______-102
+    100014: ______-102(mirrored)
+    100016: ______-102(mirrored)
+    100018: ______-103
+    100020: ______-103
+    100022: ______-103(mirrored)
+    100024: ______-103(mirrored)
+    100026: ______-104
+    100028: ______-104
+    100030: ______-104(mirrored)
+    100032: ______-104(mirrored)
+    100034: ______-105
+    100036: ______-105
+    100038: ______-105(mirrored)
+    100040: ______-105(mirrored)
+    100042: ______-106
+    100044: ______-106
+    100046: ______-106(mirrored)
+    100048: ______-106(mirrored)
+    100050: ______-107
+    100052: ______-107
+    100054: ______-107(mirrored)
+    100056: ______-107(mirrored)
+    100058: ______-108
+    100060: ______-108
+    100062: ______-108(mirrored)
+    100064: ______-108(mirrored)
+    100066: ______-109
+    100068: ______-109(mirrored)
+    100070: ______-110
+    100072: ______-110(mirrored)
+    100074: ______-111
+    100076: ______-111(mirrored)
+    100078: ______-112
+    100080: ______-113
+    100082: ______-114
+    100084: ______-115
+    100086: ______-116
+    100088: ______-117
+    100090: ______-118
+    100092: ______-119
+    100094: ______-201
+    100096: ______-201
+    100098: ______-201(mirrored)
+    100100: ______-201(mirrored)
+    100102: ______-202
+    100104: ______-202
+    100106: ______-202(mirrored)
+    100108: ______-202(mirrored)
+    100110: ______-203
+    100112: ______-203
+    100114: ______-203(mirrored)
+    100116: ______-203(mirrored)
+    100118: ______-204
+    100120: ______-204
+    100122: ______-204(mirrored)
+    100124: ______-204(mirrored)
+    100126: ______-205
+    100128: ______-205
+    100130: ______-205(mirrored)
+    100132: ______-205(mirrored)
+    100134: ______-206
+    100136: ______-206(mirrored)
+    100138: ______-207
+    100140: ______-207(mirrored)
+    100142: ______-208
+    100144: ______-208(mirrored)
+    100146: ______-209
+    100148: ______-209(mirrored)
+    100150: ______-210
+    100152: ______-210(mirrored)
+    100154: ______-211
+    100156: ______-211(mirrored)
+    100158: ______-212
+    100160: ______-212(mirrored)
+    100162: ______-213
+    100164: ______-213(mirrored)
+    100166: ______-214
+    100168: ______-214(mirrored)
+    100170: ______01
+    100172: ______01
+    100174: ______01
+    100176: ______01(mirrored)
+    100178: ______01(mirrored)
+    100180: ______02
+    100182: ______02
+    100184: ______02
+    100186: ______03
+    100188: ______03
+    100190: ______04
+    100192: ______04
+    100194: ______05
+    100196: ______05
+    100198: ______05(mirrored)
+    100200: ______06
+    100202: ______06
+    100204: ______06(mirrored)
+    100206: ______07
+    100208: ______08
+    100210: ______09
+    100212: ______10
+    100214: ______10(mirrored)
+    100216: ______101
+    100218: ______101(mirrored)
+    100220: ______102
+    100222: ______102(mirrored)
+    100224: ______103
+    100226: ______103(mirrored)
+    100228: ______104
+    100230: ______104(mirrored)
+    100232: ______105
+    100234: ______105(mirrored)
+    100236: ______106
+    100238: ______106(mirrored)
+    100240: ______11
+    100242: ______11(mirrored)
+    100244: ______12
+    100246: ______12(mirrored)
+    100248: ______13
+    100250: ______13(mirrored)
+    100252: ______14
+    100254: ______14(mirrored)
+    100256: ______15
+    100258: ______15(mirrored)
+    100260: _________01
+    100262: _________01(mirrored)
+    100264: _________02
+    100266: _________03
+    100268: _________03(mirrored)
+    100270: _________04
+    100272: _________04(mirrored)
+    100274: _________05
+    100276: _________06
+    100278: Bip01
+    100280: Bip01 Footsteps
+    100282: Bip01 Head
+    100284: Bip01 HeadNub
+    100286: Bip01 L Calf
+    100288: Bip01 L Clavicle
+    100290: Bip01 L Finger0
+    100292: Bip01 L Finger01
+    100294: Bip01 L Finger02
+    100296: Bip01 L Finger0Nub
+    100298: Bip01 L Finger1
+    100300: Bip01 L Finger11
+    100302: Bip01 L Finger12
+    100304: Bip01 L Finger1Nub
+    100306: Bip01 L Finger2
+    100308: Bip01 L Finger21
+    100310: Bip01 L Finger22
+    100312: Bip01 L Finger2Nub
+    100314: Bip01 L Finger3
+    100316: Bip01 L Finger31
+    100318: Bip01 L Finger32
+    100320: Bip01 L Finger3Nub
+    100322: Bip01 L Finger4
+    100324: Bip01 L Finger41
+    100326: Bip01 L Finger42
+    100328: Bip01 L Finger4Nub
+    100330: Bip01 L Foot
+    100332: Bip01 L Forearm
+    100334: Bip01 L ForeTwist
+    100336: Bip01 L Hand
+    100338: Bip01 L Thigh
+    100340: Bip01 L Toe0
+    100342: Bip01 L Toe0Nub
+    100344: Bip01 L UpperArm
+    100346: Bip01 Neck
+    100348: Bip01 Pelvis
+    100350: Bip01 R Calf
+    100352: Bip01 R Clavicle
+    100354: Bip01 R Finger0
+    100356: Bip01 R Finger01
+    100358: Bip01 R Finger02
+    100360: Bip01 R Finger0Nub
+    100362: Bip01 R Finger1
+    100364: Bip01 R Finger11
+    100366: Bip01 R Finger12
+    100368: Bip01 R Finger1Nub
+    100370: Bip01 R Finger2
+    100372: Bip01 R Finger21
+    100374: Bip01 R Finger22
+    100376: Bip01 R Finger2Nub
+    100378: Bip01 R Finger3
+    100380: Bip01 R Finger31
+    100382: Bip01 R Finger32
+    100384: Bip01 R Finger3Nub
+    100386: Bip01 R Finger4
+    100388: Bip01 R Finger41
+    100390: Bip01 R Finger42
+    100392: Bip01 R Finger4Nub
+    100394: Bip01 R Foot
+    100396: Bip01 R Forearm
+    100398: Bip01 R ForeTwist
+    100400: Bip01 R Hand
+    100402: Bip01 R Thigh
+    100404: Bip01 R Toe0
+    100406: Bip01 R Toe0Nub
+    100408: Bip01 R UpperArm
+    100410: Bip01 Spine
+    100412: Bip01 Spine1
+    100414: Birth 01
+    100416: Display 002
+    100418: Display 01
+    100420: Event 002
+    100422: Event 01
+    100424: obj____________
+    100426: obj____________01_glow
+    100428: obja24:polySurface4
+    100430: obja4:objpolySurface14
+    100432: Object04
+    100434: Object05
+    100436: Object07
+    100438: Object08
+    100440: Object09
+    100442: Object10
+    100444: Object11
+    100446: objpolySurface11
+    100448: Particle View 01
+    100450: Position Object 01
+    100452: Render 01
+    400000: //RootNode
+    400002: ______-101
+    400004: ______-101
+    400006: ______-101(mirrored)
+    400008: ______-101(mirrored)
+    400010: ______-102
+    400012: ______-102
+    400014: ______-102(mirrored)
+    400016: ______-102(mirrored)
+    400018: ______-103
+    400020: ______-103
+    400022: ______-103(mirrored)
+    400024: ______-103(mirrored)
+    400026: ______-104
+    400028: ______-104
+    400030: ______-104(mirrored)
+    400032: ______-104(mirrored)
+    400034: ______-105
+    400036: ______-105
+    400038: ______-105(mirrored)
+    400040: ______-105(mirrored)
+    400042: ______-106
+    400044: ______-106
+    400046: ______-106(mirrored)
+    400048: ______-106(mirrored)
+    400050: ______-107
+    400052: ______-107
+    400054: ______-107(mirrored)
+    400056: ______-107(mirrored)
+    400058: ______-108
+    400060: ______-108
+    400062: ______-108(mirrored)
+    400064: ______-108(mirrored)
+    400066: ______-109
+    400068: ______-109(mirrored)
+    400070: ______-110
+    400072: ______-110(mirrored)
+    400074: ______-111
+    400076: ______-111(mirrored)
+    400078: ______-112
+    400080: ______-113
+    400082: ______-114
+    400084: ______-115
+    400086: ______-116
+    400088: ______-117
+    400090: ______-118
+    400092: ______-119
+    400094: ______-201
+    400096: ______-201
+    400098: ______-201(mirrored)
+    400100: ______-201(mirrored)
+    400102: ______-202
+    400104: ______-202
+    400106: ______-202(mirrored)
+    400108: ______-202(mirrored)
+    400110: ______-203
+    400112: ______-203
+    400114: ______-203(mirrored)
+    400116: ______-203(mirrored)
+    400118: ______-204
+    400120: ______-204
+    400122: ______-204(mirrored)
+    400124: ______-204(mirrored)
+    400126: ______-205
+    400128: ______-205
+    400130: ______-205(mirrored)
+    400132: ______-205(mirrored)
+    400134: ______-206
+    400136: ______-206(mirrored)
+    400138: ______-207
+    400140: ______-207(mirrored)
+    400142: ______-208
+    400144: ______-208(mirrored)
+    400146: ______-209
+    400148: ______-209(mirrored)
+    400150: ______-210
+    400152: ______-210(mirrored)
+    400154: ______-211
+    400156: ______-211(mirrored)
+    400158: ______-212
+    400160: ______-212(mirrored)
+    400162: ______-213
+    400164: ______-213(mirrored)
+    400166: ______-214
+    400168: ______-214(mirrored)
+    400170: ______01
+    400172: ______01
+    400174: ______01
+    400176: ______01(mirrored)
+    400178: ______01(mirrored)
+    400180: ______02
+    400182: ______02
+    400184: ______02
+    400186: ______03
+    400188: ______03
+    400190: ______04
+    400192: ______04
+    400194: ______05
+    400196: ______05
+    400198: ______05(mirrored)
+    400200: ______06
+    400202: ______06
+    400204: ______06(mirrored)
+    400206: ______07
+    400208: ______08
+    400210: ______09
+    400212: ______10
+    400214: ______10(mirrored)
+    400216: ______101
+    400218: ______101(mirrored)
+    400220: ______102
+    400222: ______102(mirrored)
+    400224: ______103
+    400226: ______103(mirrored)
+    400228: ______104
+    400230: ______104(mirrored)
+    400232: ______105
+    400234: ______105(mirrored)
+    400236: ______106
+    400238: ______106(mirrored)
+    400240: ______11
+    400242: ______11(mirrored)
+    400244: ______12
+    400246: ______12(mirrored)
+    400248: ______13
+    400250: ______13(mirrored)
+    400252: ______14
+    400254: ______14(mirrored)
+    400256: ______15
+    400258: ______15(mirrored)
+    400260: _________01
+    400262: _________01(mirrored)
+    400264: _________02
+    400266: _________03
+    400268: _________03(mirrored)
+    400270: _________04
+    400272: _________04(mirrored)
+    400274: _________05
+    400276: _________06
+    400278: Bip01
+    400280: Bip01 Footsteps
+    400282: Bip01 Head
+    400284: Bip01 HeadNub
+    400286: Bip01 L Calf
+    400288: Bip01 L Clavicle
+    400290: Bip01 L Finger0
+    400292: Bip01 L Finger01
+    400294: Bip01 L Finger02
+    400296: Bip01 L Finger0Nub
+    400298: Bip01 L Finger1
+    400300: Bip01 L Finger11
+    400302: Bip01 L Finger12
+    400304: Bip01 L Finger1Nub
+    400306: Bip01 L Finger2
+    400308: Bip01 L Finger21
+    400310: Bip01 L Finger22
+    400312: Bip01 L Finger2Nub
+    400314: Bip01 L Finger3
+    400316: Bip01 L Finger31
+    400318: Bip01 L Finger32
+    400320: Bip01 L Finger3Nub
+    400322: Bip01 L Finger4
+    400324: Bip01 L Finger41
+    400326: Bip01 L Finger42
+    400328: Bip01 L Finger4Nub
+    400330: Bip01 L Foot
+    400332: Bip01 L Forearm
+    400334: Bip01 L ForeTwist
+    400336: Bip01 L Hand
+    400338: Bip01 L Thigh
+    400340: Bip01 L Toe0
+    400342: Bip01 L Toe0Nub
+    400344: Bip01 L UpperArm
+    400346: Bip01 Neck
+    400348: Bip01 Pelvis
+    400350: Bip01 R Calf
+    400352: Bip01 R Clavicle
+    400354: Bip01 R Finger0
+    400356: Bip01 R Finger01
+    400358: Bip01 R Finger02
+    400360: Bip01 R Finger0Nub
+    400362: Bip01 R Finger1
+    400364: Bip01 R Finger11
+    400366: Bip01 R Finger12
+    400368: Bip01 R Finger1Nub
+    400370: Bip01 R Finger2
+    400372: Bip01 R Finger21
+    400374: Bip01 R Finger22
+    400376: Bip01 R Finger2Nub
+    400378: Bip01 R Finger3
+    400380: Bip01 R Finger31
+    400382: Bip01 R Finger32
+    400384: Bip01 R Finger3Nub
+    400386: Bip01 R Finger4
+    400388: Bip01 R Finger41
+    400390: Bip01 R Finger42
+    400392: Bip01 R Finger4Nub
+    400394: Bip01 R Foot
+    400396: Bip01 R Forearm
+    400398: Bip01 R ForeTwist
+    400400: Bip01 R Hand
+    400402: Bip01 R Thigh
+    400404: Bip01 R Toe0
+    400406: Bip01 R Toe0Nub
+    400408: Bip01 R UpperArm
+    400410: Bip01 Spine
+    400412: Bip01 Spine1
+    400414: Birth 01
+    400416: Display 002
+    400418: Display 01
+    400420: Event 002
+    400422: Event 01
+    400424: obj____________
+    400426: obj____________01_glow
+    400428: obja24:polySurface4
+    400430: obja4:objpolySurface14
+    400432: Object04
+    400434: Object05
+    400436: Object07
+    400438: Object08
+    400440: Object09
+    400442: Object10
+    400444: Object11
+    400446: objpolySurface11
+    400448: Particle View 01
+    400450: Position Object 01
+    400452: Render 01
+    4300000: obj____________
+    4300002: obja24:polySurface4
+    4300004: objpolySurface11
+    4300006: obja4:objpolySurface14
+    4300008: Object07
+    4300010: Object08
+    4300012: Object09
+    4300014: Object10
+    4300016: Object05
+    4300018: Object11
+    4300020: Object04
+    4300022: obj____________01_glow
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: obj____________
+    13700002: obj____________01_glow
+    13700004: obja24:polySurface4
+    13700006: obja4:objpolySurface14
+    13700008: Object04
+    13700010: Object05
+    13700012: Object07
+    13700014: Object08
+    13700016: Object09
+    13700018: Object10
+    13700020: Object11
+    13700022: objpolySurface11
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

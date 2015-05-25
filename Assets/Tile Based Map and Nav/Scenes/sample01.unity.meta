@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 93c1c0c26cf811047b79225f0591bb8f
+labels:
+- strategy
+- turn-based
+- navigation
+- grid
+- map
+- square
+- hexagon
+- hex
+- tile
+- rts
+- boardgame
+- board
+DefaultImporter:
+  userData: 
