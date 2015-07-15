@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED694CCE-09EC-0137-DA0F-6BDBEEE77673}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets\Plugins\JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Heros.CSharp.csproj">
+      <Project>{5037CA80-819B-0F53-84D9-3368F0DBFA64}</Project>
+      <Name>UnityVS.Heros.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.Heros.CSharp.Plugins.csproj">
+      <Project>{95A5B692-BE45-717E-A2EB-EE1C503BB671}</Project>
+      <Name>UnityVS.Heros.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\AnimationConfig\AnimationDataPostProcess.cs" />
+    <Compile Include="Assets\Editor\ArrangeTool\ArrangeTool.cs" />
+    <Compile Include="Assets\Editor\Attribute\AttributeAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\AvatarSys\EditorHelpers.cs" />
+    <Compile Include="Assets\Editor\AvatarSys\JianghuPlayerAssetManager.cs" />
+    <Compile Include="Assets\Editor\AvatarSys\JianghuPlayerAssetManager_V2.cs" />
+    <Compile Include="Assets\Editor\AvatarSys\JianghuPlayerEditor.cs" />
+    <Compile Include="Assets\Editor\BroadcastConfig\BroadcastConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\BuffConfig\BuffConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\Build\AssetBundlesConfig.cs" />
+    <Compile Include="Assets\Editor\Build\AssetBundlesConfigPostProcessor.cs" />
+    <Compile Include="Assets\Editor\Build\AssetBundlesDatabaseBuilder.cs" />
+    <Compile Include="Assets\Editor\Build\Build.cs" />
+    <Compile Include="Assets\Editor\Build\BuildBundlesSettingsWindow.cs" />
+    <Compile Include="Assets\Editor\Build\Builder.cs" />
+    <Compile Include="Assets\Editor\Build\BuilderCache.cs" />
+    <Compile Include="Assets\Editor\Build\BuildSettingsWindow.cs" />
+    <Compile Include="Assets\Editor\Build\BuildUtils.cs" />
+    <Compile Include="Assets\Editor\Build\BundleLevelPostProcessor.cs" />
+    <Compile Include="Assets\Editor\Build\LateReferenceProcessor.cs" />
+    <Compile Include="Assets\Editor\BuildTarget\BuildTargetEditor.cs" />
+    <Compile Include="Assets\Editor\Bullet\BulletAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\Bullet\BulletImpactAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\CanonSpace\AlignUtil.cs" />
+    <Compile Include="Assets\Editor\CharacterNameConfig\CharacterNamePostProcessor.cs" />
+    <Compile Include="Assets\Editor\CommonDefineConfig\CommonDefinePostProcessor.cs" />
+    <Compile Include="Assets\Editor\CommonIconData\CommonIconDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ConfigAutoRead\CommonDataReader.cs" />
+    <Compile Include="Assets\Editor\ConfigAutoRead\ConfigEditor.cs" />
+    <Compile Include="Assets\Editor\ConfigAutoRead\XmlSpreadSheetCommonReader.cs" />
+    <Compile Include="Assets\Editor\DailySignInConfig\ActivityConfigDataPostprocessor.cs" />
+    <Compile Include="Assets\Editor\DailySignInConfig\DailySignInDataPostprocessor.cs" />
+    <Compile Include="Assets\Editor\DailyTaskConfig\DailyTaskDataPostprocessor.cs" />
+    <Compile Include="Assets\Editor\DailyTaskConfig\DailyTaskRewardDataPostprocessor.cs" />
+    <Compile Include="Assets\Editor\DamageConfig\DamageConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\EctypeConfig\EctypeContainerConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\EctypeConfig\EctypeSelectConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\EndLessEctypeConfig\EndLessEctypeConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\EvaluateDataConfig\EvaluateConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\FirstBattlePrize\FirstBattlePrizeAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ForgeRecipeConfig\ForgeRecipeConfigAssetPosProcessor.cs" />
+    <Compile Include="Assets\Editor\GMConfig\GMConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\GoldRechargeConfig\GoldRechargeConfigPostProcessor.cs" />
+    <Compile Include="Assets\Editor\GUI\SpriteSmoothInspector.cs" />
+    <Compile Include="Assets\Editor\GUI\SpriteSwithInspector.cs" />
+    <Compile Include="Assets\Editor\ItemData\EffectIDDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ItemData\EquipmentRefiningDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ItemData\EquipStrengthenDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ItemData\ItemDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ItemData\MedicamentConfigDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ItemData\PlayerGiftConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\JokeConfig\JokeConfigPostProcessor.cs" />
+    <Compile Include="Assets\Editor\JokeConfig\MultiJokeLanguageAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\Language\MultiLanguageAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\LinkConfig\LinkConfigPostProcessor.cs" />
+    <Compile Include="Assets\Editor\LoadingTipsConfig\LoadingTipsPostProcessor.cs" />
+    <Compile Include="Assets\Editor\LocalServerListConfig\LocalServerListPostProcessor.cs" />
+    <Compile Include="Assets\Editor\MapResConfig\MapResConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\MapResConfig\PlayerEffectAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\MissionFailConfig\MissionFaiBtnAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\MonsterConfig\MonsterConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\NewbieGuideConfig\GuideConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\NewCharacterUIConfig\NewCharacterConfigPostprocessor.cs" />
+    <Compile Include="Assets\Editor\NPCConfig\NPCConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerAuction\PlayerAuctionAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerBaseProp\PlayerBasePropPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerGenerateConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerLevelConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerPrestigeConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerRoomAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerSirenConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerStrengtnCostConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLevelConfig\PlayerTitleConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerLuckDraw\PlayerLuckDrawPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerMartialArtsConfig\PlayerMartialConfigProcessor.cs" />
+    <Compile Include="Assets\Editor\PlayerMeridiansDataConfig\PlayerKongfuDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PortalConfig\PortalConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ProfessionConfig\ProfessionConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PVPGroupConfig\PVPGroupConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\PVPGroupConfig\PVPGroupListAwardAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\RobotConfig\RobotConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\RobotConfig\TownRobotPosAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SceneConfig\SceneConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ScriptTool\AddScriptTool.cs" />
+    <Compile Include="Assets\Editor\Secne3DAudioConfig\Scene3DAudioConfigaDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\ShopConfig\ShopConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SkillAction\SkillActionAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SkillConfig\PassiveSkillSkillAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SkillConfig\SirenSkillAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SkillConfig\SkillConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SkillConfig\SKillUIConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SkillEvent\SkillEventImporter.cs" />
+    <Compile Include="Assets\Editor\Sound\SoundAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\StoryLine\StroyLineConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\SystemMailConfig\SystemMailConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\TaskConfig\TaskConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\TrapConfig\TrapConfigAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\TreasureTreesDataConfig\TreasureTreesDataPostProcessor.cs" />
+    <Compile Include="Assets\Editor\Utils\EditorUtils.cs" />
+    <Compile Include="Assets\Editor\Utils\ScanningUtils.cs" />
+    <Compile Include="Assets\Editor\VIpConfig\VIPDataBasePostProcessor.cs" />
+    <Compile Include="Assets\Editor\XmlReader\XmlSpreadSheetReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\ComponentSelector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIJson.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIMenu.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISettings.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\SpriteSelector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICameraTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFilledSpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFontInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFontMaker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollBarInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISlicedSpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISliderInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITextureInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITiledSpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\T4M\Editor\T4MExtendsSC.cs" />
+    <Compile Include="Assets\T4M\Editor\T4MSC.cs" />
+    <Compile Include="Assets\Tile Based Map and Nav\Editor\MapNavCreateWindow.cs" />
+    <Compile Include="Assets\Tile Based Map and Nav\Editor\MapNavEditor.cs" />
+    <Compile Include="Assets\Tile Based Map and Nav\Editor\MarkerCreateWindow.cs" />
+    <Compile Include="Assets\Tile Based Map and Nav\Editor\RadiusMarkerEditor.cs" />
+    <Compile Include="Assets\Tile Based Map and Nav\Editor\TileNodeEditor.cs" />
+    <Compile Include="Assets\Tile Based Map and Nav\Editor\TMNEditorUtil.cs" />
+    <None Include="Assets\Shaders\BeforeTrans\DiffuseBefroeTransparant.shader" />
+    <None Include="Assets\Shaders\EffectShaders\Effect_Additive.shader" />
+    <None Include="Assets\Shaders\EffectShaders\Effect_Alpha Blended _Queue-1.shader" />
+    <None Include="Assets\Shaders\JH_Hurt_Flash\JH_Hurt_Flash.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 4 Textures.shader" />
+    <None Include="Assets\Tile Based Map and Nav\Documentation\readme.txt" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>
